@@ -1,13 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.bilel.kodi" name="Bilel-KODI" version="0.0.1" provider-name="RIHANI Bilel">
+<addons><addon id="plugin.bilel.kodi" name="Bilel-KODI" version="0.0.3" provider-name="RIHANI Bilel">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.routing" version="0.2.0" />
         <import addon="script.module.simplejson" version="3.3.0" />
         <import addon="script.module.codequick" version="0.9.10" />
-        <import addon="script.module.web-pdb" version="1.5.6" />
         <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.resolveurl" version="5.1.00" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
@@ -29,12 +27,12 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="repository.bilel" name="Bilel Repository" version="0.0.1" provider-name="Bilel">
+</addon><addon id="repository.bilel" name="Bilel Repository" version="0.0.2" provider-name="Bilel">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/rihanibilel/repo.bilel.github.io/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/rihanibilel/repo.bilel.github.io/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/rihanibilel/repo.bilel.github.io/master/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
