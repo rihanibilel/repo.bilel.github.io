@@ -66,12 +66,26 @@
             <screenshot>screenshot-04.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="repository.bilel" name="Bilel Repository" version="0.0.3" provider-name="Bilel">
+</addon><addon id="repository.bilel" name="Bilel Repository" version="0.0.4" provider-name="Bilel">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/</datadir>
+            <info compressed="false">
+                https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/addons.xml</info>
+            <checksum>
+                https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/addons.xml.md5
+            </checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/
+            </datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
