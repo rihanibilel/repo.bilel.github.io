@@ -28,12 +28,32 @@
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="repository.bilel" name="Bilel Repository" version="0.0.2" provider-name="Bilel">
+</addon><addon id="repository.bilel" name="Bilel Repository" version="1.0.0" provider-name="Bilel">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/</datadir>
+            <info compressed="false">
+                https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/addons.xml</info>
+            <checksum>
+                https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/addons.xml.md5
+            </checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/rihanibilel/rihanibilel.github.io/master/repo/zips/
+            </datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/zombiB/zombi-addons/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/zombiB/zombi-addons/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/zombiB/zombi-addons/raw/master/repo</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
