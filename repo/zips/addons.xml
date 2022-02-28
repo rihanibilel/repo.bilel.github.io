@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.bilel.kodi" name="Bilel-KODI" version="1.0.0" provider-name="RIHANI Bilel">
+<addons><addon id="plugin.bilel.kodi" name="Bilel-KODI" version="1.0.1" provider-name="RIHANI Bilel">
     <requires>
 
         <trycatch>
@@ -18,6 +18,7 @@
         <import addon="script.module.dnspython" optional="true" />
         <import addon="script.module.pyqrcode" optional="true" />
         <import addon="script.module.selenium" optional="true" />
+        <import addon="script.module.web-pdb" version="1.5.6" />
         <import addon="repository.bilel" version="1.0.0" />
         
     </requires>
